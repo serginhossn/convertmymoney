@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "start": "node index.js"
+    "start": "node index.js",
+    "build": "express build --output public"
   },
   "author": "Sérgio Soares Nunes",
   "license": "ISC",
@@ -15,10 +16,5 @@
   },
   "devDependencies": {
     "jest": "^25.1.0"
-  }
-}
-{
-  "scripts": {
-    "build": "express build --output public"
   }
 }
